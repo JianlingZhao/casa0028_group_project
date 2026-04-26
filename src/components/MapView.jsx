@@ -367,7 +367,7 @@ export default function MapView({
           onClick={handleMapClick}
           interactiveLayerIds={["points-layer", "hovered-point-layer"]}
           style={{ width: "100%", height: "100%" }}
-          mapStyle="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"
+          mapStyle="https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json"
         >
           <Source id="points-source" type="geojson" data={baseGeojson}>
             <Layer {...baseCircleLayer} />
